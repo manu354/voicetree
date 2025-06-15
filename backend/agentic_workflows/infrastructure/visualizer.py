@@ -6,7 +6,7 @@ from typing import Dict, Any, List, Optional
 from pathlib import Path
 import json
 
-from backend.agentic_workflows.graph_definition import (
+from backend.agentic_workflows.legacy_graph_definition import (
     get_workflow_definition,
     visualize_workflow
 )
@@ -238,6 +238,17 @@ class WorkflowVisualizer:
         
         with open(output_path, 'w') as f:
             json.dump(spec, f, indent=2)
+
+
+def create_workflow_diagram() -> str:
+    """
+    Create and return a workflow diagram (wrapper function for imports)
+    
+    Returns:
+        Mermaid diagram as string
+    """
+    visualizer = WorkflowVisualizer()
+    return visualizer.generate_mermaid_diagram()
 
 
 def main():

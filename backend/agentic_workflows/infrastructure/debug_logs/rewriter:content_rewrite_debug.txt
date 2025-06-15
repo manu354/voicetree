@@ -1,0 +1,15 @@
+
+==========================================
+REWRITER:CONTENT_REWRITE STAGE DEBUG - 14:12:14
+==========================================
+
+INPUT VARIABLES:
+  node_content: 'Some content that needs improvement'
+  transcript_history: 'Original transcript context'
+  rewrite_plan: ''
+
+OUTPUT VARIABLES:
+  (no variables)
+
+==========================================
+

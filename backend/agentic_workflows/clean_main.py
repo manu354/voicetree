@@ -13,8 +13,25 @@ from typing import Dict, Any, Optional
 from pathlib import Path
 
 # Clean imports - agent definition separate from infrastructure
-from .agent import VoiceTreeAgent, get_agent_definition
+# FIXME: agent module doesn't exist, commenting out for now
+# from .agent import VoiceTreeAgent, get_agent_definition
 from .infrastructure import AgentExecutor, VoiceTreeStateManager
+
+# Use TADA agent instead as a workaround
+from .agents.tada import TADAAgent as VoiceTreeAgent
+
+# Clean imports - agent definition separate from infrastructure
+# FIXME: agent module doesn't exist, commenting out for now
+# from .agent import VoiceTreeAgent, get_agent_definition
+from .infrastructure import VoiceTreeStateManager
+from .legacy_infrastructure_executor import AgentExecutor
+
+# Use TADA agent instead as a workaround
+
+
+def get_agent_definition():
+    """Placeholder for missing function"""
+    return {"stages": [], "transitions": []}
 
 
 class CleanVoiceTreePipeline:

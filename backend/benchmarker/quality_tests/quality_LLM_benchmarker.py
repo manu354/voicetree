@@ -33,6 +33,11 @@ import re
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../../..')))
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../..')))
 
+# Add parent directories to path
+# From quality_tests -> benchmarker -> backend -> workspace (3 levels up)
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../..')))  # To workspace root
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))     # To backend
+
 import google.generativeai as genai
 from google.generativeai import GenerativeModel
 

@@ -1,0 +1,14 @@
+
+==========================================
+REWRITER:QUALITY_VALIDATION STAGE DEBUG - 14:12:14
+==========================================
+
+INPUT VARIABLES:
+  original_content: ''
+  rewritten_content: ''
+
+OUTPUT VARIABLES:
+  (no variables)
+
+==========================================
+

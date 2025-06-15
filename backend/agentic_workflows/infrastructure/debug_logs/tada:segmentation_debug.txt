@@ -1,0 +1,13 @@
+
+==========================================
+TADA:SEGMENTATION STAGE DEBUG - 14:12:14
+==========================================
+
+INPUT VARIABLES:
+  transcript_text: 'This is a test transcript about machine learning concepts'
+
+OUTPUT VARIABLES:
+  (no variables)
+
+==========================================
+

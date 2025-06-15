@@ -1,0 +1,14 @@
+
+==========================================
+REWRITER:REWRITE_PLANNING STAGE DEBUG - 14:12:14
+==========================================
+
+INPUT VARIABLES:
+  quality_analysis: ''
+  node_content: 'Some content that needs improvement'
+
+OUTPUT VARIABLES:
+  (no variables)
+
+==========================================
+
