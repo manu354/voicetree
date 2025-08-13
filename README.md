@@ -1,2 +1,2 @@
 # voicetree
-Now at https://voicetree.io
+Now at https://github.com/voicetreelab and https://voicetree.io
